@@ -1,0 +1,103 @@
+
+
+.container{
+    width: 100%;
+}
+
+/* 회원가입 헤더 */
+.container .header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* 회원가입 박스 */
+.container .center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .center .center_menu{
+    width: 608px;
+    padding: 56px 80px;
+    border-radius: 4px;
+    border: 1px solid rgb(228, 229, 237);
+    
+}
+
+.container .center .center_menu .text1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.container .center .center_menu .text2{
+    font-size: 14px;
+    color: rgb(114, 117, 133);
+    margin-bottom: 35px;
+}
+
+.container .center .center_menu .text3{
+    font-size: 15px;
+    font-weight: bold;
+    color: #555969;
+    margin-bottom: 15px;
+}
+
+.container .center .center_menu .button_wrapper{
+    margin-bottom: 48px;
+}
+
+.container .center .center_menu .button_wrapper1{
+    margin-bottom: 28px;
+}
+
+/* 버튼 */
+.container .center .center_menu .button_wrapper .joinbutton{
+    width: 396px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid rgb(228, 229, 237);
+    border-radius: 4px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color linear 0.5s;
+}
+
+.container .center .center_menu .button_wrapper1 .joinbutton{
+    width: 396px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid rgb(228, 229, 237);
+    border-radius: 4px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color linear 0.5s;
+}
+
+.container .center .center_menu .button_wrapper .joinbutton:hover{
+    border: 1px solid #4654A3;
+    color: #4654A3;
+    background-color: aliceblue;
+}
+
+.container .center .center_menu .button_wrapper1 .joinbutton:hover{
+    border: 1px solid #4654A3;
+    color: #4654A3;
+    background-color: aliceblue;
+}
